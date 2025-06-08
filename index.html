@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ClipStar - Home</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>ClipStar</h1>
+    <p>Welcome to the TikTok-style Video App</p>
+  </header>
+  <main>
+    <div class="profile">
+      <img src="profile.jpg" alt="Profile Picture" class="profile-pic"/>
+      <h2>@username <span class="verified">✔️</span></h2>
+      <div class="buttons">
+        <button>Edit Profile</button>
+        <button>Dashboard</button>
+      </div>
+      <div class="stats">
+        <p>Videos: 12</p>
+        <p>Followers: 980</p>
+        <p>Likes: 5.3K</p>
+      </div>
+    </div>
+    <section class="videos">
+      <h3>Uploaded Videos</h3>
+      <div class="video-grid">
+        <video controls src="videos/sample1.mp4"></video>
+        <video controls src="videos/sample2.mp4"></video>
+      </div>
+    </section>
+    <section class="saved">
+      <h3>Saved Videos</h3>
+      <div class="video-grid">
+        <video controls src="videos/sample3.mp4"></video>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
